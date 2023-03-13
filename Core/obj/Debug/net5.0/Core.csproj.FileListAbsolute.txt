@@ -1,0 +1,12 @@
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\bin\Debug\net5.0\Core.dll
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\obj\Debug\net5.0\Core.dll
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\obj\Debug\net5.0\refint\Core.dll
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\hamza\Desktop\Projeler\backend\EDemirogFinalProject\Core\obj\Debug\net5.0\ref\Core.dll
