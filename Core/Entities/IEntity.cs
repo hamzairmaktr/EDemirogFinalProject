@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Core.Entities
 {
+    // IEntity'i implement eden bir class veri tabanı tablosudur.
+
     public interface IEntity
     {
     }

@@ -1,10 +1,11 @@
 ﻿using Business.Abstract;
 using DataAccess.Abstract;
-using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,6 +13,8 @@ namespace Business.Concrete
 {
     public class ProductManager : IProductService
     {
+        // Burada Inject edeceğimiz yapının temel Interfaceini veririz.
+        // Burada ne InMemory ne de EntityFramework geçmemeli
         IProductDal _productDal;
 
         public ProductManager(IProductDal productDal)
@@ -21,27 +24,27 @@ namespace Business.Concrete
 
         public void Add(Product product)
         {
-            _productDal.Add(product);           
+            _productDal.Add(product);
         }
 
         public void Delete(Product product)
         {
             _productDal.Delete(product);
         }
-
+        
         public List<Product> GetAll()
         {
             return _productDal.GetAll();
         }
-
-        public List<Product> GetAllByCategoryId(int id)
+        
+        public Product GetById(int id)
         {
-            return _productDal.GetAll(p=>p.CategoryId == id);
+            return _productDal.GetById(p => p.ProductId == id);
         }
 
-        public List<Product> GetAllByUnitPrice(decimal min, decimal max)
+        public List<ProductDetailDto> GetProductDetails()
         {
-            return _productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max);
+            return _productDal.GetProductDetails();
         }
 
         public void Update(Product product)

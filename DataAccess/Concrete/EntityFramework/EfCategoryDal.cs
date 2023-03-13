@@ -1,45 +1,15 @@
-﻿using Core.DataAcess;
+﻿using Core.EntityFramework;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCategoryDal : ICategoryDal
+    public class EfCategoryDal:EfEntityRepositoryBase<Category,NorthwindContext>,ICategoryDal
     {
-        public void Add(Category t)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(Category t)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Category Get(Expression<Func<Category, bool>> filter)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Product> GetAll(Expression<Func<Category, bool>> filter = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(Category t)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<Category> IEntityRepository<Category>.GetAll(Expression<Func<Category, bool>> filter)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
