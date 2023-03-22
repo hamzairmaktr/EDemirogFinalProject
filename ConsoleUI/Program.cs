@@ -17,11 +17,20 @@ internal class Program
         //EmployeeEklemeSilmeListeleme();
 
         ProductManager productManager = new ProductManager(new EfProductDal());
-        foreach (var detail in productManager.GetProductDetails())
+        var result = productManager.GetProductDetails();
+        if (result.Success==true)
         {
-            Console.WriteLine("Product Id: {0}, Product Name: {1}, Category Name: {2}, UnitsInStock: {3}",
-                detail.ProductId, detail.ProductName, detail.CategoryName, detail.UnitsInStock);
+            foreach (var detail in result.Data)
+            {
+                Console.WriteLine("Product Id: {0}, Product Name: {1}, Category Name: {2}, UnitsInStock: {3}",
+                    detail.ProductId, detail.ProductName, detail.CategoryName, detail.UnitsInStock);
+            }
         }
+        else
+        {
+            Console.WriteLine(result.Message);
+        }
+        
 
 
 
@@ -33,7 +42,7 @@ internal class Program
 
             ProductManager productManager = new ProductManager(new EfProductDal());
 
-            foreach (var product in productManager.GetAll())
+            foreach (var product in productManager.GetAll().Data)
             {
                 Console.WriteLine("{0} - {1} - {2} ", product.ProductId, product.ProductName, product.CategoryId);
             }
@@ -44,7 +53,7 @@ internal class Program
 
             Console.WriteLine(" *** ÜRÜN EKLENİP LİSTELENİYOR ***");
 
-            foreach (var product in productManager.GetAll())
+            foreach (var product in productManager.GetAll().Data)
             {
                 Console.WriteLine("{0} - {1} - {2} ", product.ProductId, product.ProductName, product.CategoryId);
             }
@@ -55,7 +64,7 @@ internal class Program
 
             Console.WriteLine(" *** ÜRÜN SİLİNİP LİSTELENİYOR ***");
 
-            foreach (var product in productManager.GetAll())
+            foreach (var product in productManager.GetAll().Data)
             {
                 Console.WriteLine("{0} - {1} - {2} ", product.ProductId, product.ProductName, product.CategoryId);
             }

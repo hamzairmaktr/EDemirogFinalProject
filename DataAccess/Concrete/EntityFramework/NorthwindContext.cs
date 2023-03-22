@@ -7,13 +7,13 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Abstract
+namespace DataAccess.Concrete.EntityFramework
 {
     public class NorthwindContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-JSICKJ7\SQLEXPRESS;Database=Northwind;Trusted_Connection=true");
+            optionsBuilder.UseSqlServer(@"Server=.;Database=Northwind;Trusted_Connection=true");
         }
 
         public DbSet<Product> Products { get; set; }

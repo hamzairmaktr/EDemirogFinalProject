@@ -5937,23 +5937,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CASPER\\.nuget\\packages\\": {},
+    "C:\\Users\\hamza\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\FinalProject\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\hamza\\Desktop\\Projeler\\backend\\EDemirogFinalProject\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\FinalProject\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\FinalProject\\Core\\obj\\",
+      "projectPath": "C:\\Users\\hamza\\Desktop\\Projeler\\backend\\EDemirogFinalProject\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hamza\\Desktop\\Projeler\\backend\\EDemirogFinalProject\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hamza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5962,6 +5965,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6001,7 +6006,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
