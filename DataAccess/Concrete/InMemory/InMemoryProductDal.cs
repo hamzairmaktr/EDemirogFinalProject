@@ -72,7 +72,7 @@ namespace DataAccess.Concrete.InMemory
            //return _products.Where(p => p.CategoryId == categoryId && ve || veya diyerek daha çok şart ekleyebiliriz).ToList();
         }
 
-        public Product GetById(Expression<Func<Product, bool>> filter)
+        public Product Get(Expression<Func<Product, bool>> filter)
         {
             throw new NotImplementedException();
         }

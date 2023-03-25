@@ -49,7 +49,7 @@ namespace Business.Concrete
         
         public IDataResult<Product> GetById(int id)
         {
-            return new SucessDataResult<Product>(_productDal.GetById(p=>p.ProductId==id),"Mesaj");
+            return new SucessDataResult<Product>(_productDal.Get(p=>p.ProductId==id),"Mesaj");
         }
 
         public IDataResult<List<ProductDetailDto>> GetProductDetails()

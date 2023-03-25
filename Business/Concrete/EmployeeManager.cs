@@ -35,7 +35,7 @@ namespace Business.Concrete
 
         public Employee GetById(int id)
         {
-            return _employeeDal.GetById(e=>e.EmployeeID==id);
+            return _employeeDal.Get(e=>e.EmployeeID==id);
         }
 
         public void Update(Employee employee)
