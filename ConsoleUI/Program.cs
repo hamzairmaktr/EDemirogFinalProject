@@ -16,7 +16,7 @@ internal class Program
 
         //EmployeeEklemeSilmeListeleme();
 
-        ProductManager productManager = new ProductManager(new EfProductDal());
+        ProductManager productManager = new ProductManager(new EfProductDal(),new CategoryManager(new EfCategoryDal()));
         var result = productManager.GetProductDetails();
         if (result.Success==true)
         {
@@ -40,7 +40,7 @@ internal class Program
 
             Console.WriteLine(" *** ÜRÜNLER LİSTELENİYOR ***");
 
-            ProductManager productManager = new ProductManager(new EfProductDal());
+            ProductManager productManager = new ProductManager(new EfProductDal(), new CategoryManager(new EfCategoryDal()));
 
             foreach (var product in productManager.GetAll().Data)
             {
@@ -76,7 +76,7 @@ internal class Program
 
             Console.WriteLine(" *** Kategoriler Listeleniyor ***");
 
-            foreach (var item in categoryManager.GetAll())
+            foreach (var item in categoryManager.GetAll().Data)
             {
                 Console.WriteLine("Category Id :{0} --- Category Name : {1}", item.CategoryId, item.CategoryName);
             }
@@ -85,7 +85,7 @@ internal class Program
             Category category = new Category() { CategoryName = "Deneme" };
             categoryManager.Add(category);
 
-            foreach (var item in categoryManager.GetAll())
+            foreach (var item in categoryManager.GetAll().Data)
             {
                 Console.WriteLine("Category Id :{0} --- Category Name : {1}", item.CategoryId, item.CategoryName);
             }
@@ -94,7 +94,7 @@ internal class Program
             Category silinecekCategory = new Category() { CategoryId = 10 };
             categoryManager.Delete(silinecekCategory);
 
-            foreach (var item in categoryManager.GetAll())
+            foreach (var item in categoryManager.GetAll().Data)
             {
                 Console.WriteLine("Category Id :{0} --- Category Name : {1}", item.CategoryId, item.CategoryName);
             }

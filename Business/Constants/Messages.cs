@@ -15,6 +15,7 @@ namespace Business.Constants
         public static string ProductListed = "Ürünler listelendi";
         public static string ProductDeleted = "Ürün silindi";
         public static string ProductUpdated = "Ürün gücellendi";
-
+        public static string UrunNameMevcutError = "Bu ürün ismine sahip başka bir ürün var";
+        public static string CategoryLimitExceded = "Kategori limiti aşıldığı için yeni ürün eklenemiyor";
     }
 }

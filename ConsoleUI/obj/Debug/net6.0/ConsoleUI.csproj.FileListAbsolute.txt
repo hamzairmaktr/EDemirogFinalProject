@@ -380,3 +380,7 @@ C:\Users\CASPER\Desktop\project\BackEnd\EDemirogFinalProject\ConsoleUI\obj\Debug
 C:\Users\CASPER\Desktop\project\BackEnd\EDemirogFinalProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.pdb
 C:\Users\CASPER\Desktop\project\BackEnd\EDemirogFinalProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
 C:\Users\CASPER\Desktop\project\BackEnd\EDemirogFinalProject\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll
+C:\Users\CASPER\Desktop\project\BackEnd\EDemirogFinalProject\ConsoleUI\bin\Debug\net6.0\Autofac.dll
+C:\Users\CASPER\Desktop\project\BackEnd\EDemirogFinalProject\ConsoleUI\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\CASPER\Desktop\project\BackEnd\EDemirogFinalProject\ConsoleUI\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\CASPER\Desktop\project\BackEnd\EDemirogFinalProject\ConsoleUI\bin\Debug\net6.0\FluentValidation.dll
