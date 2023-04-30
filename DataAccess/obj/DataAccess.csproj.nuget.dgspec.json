@@ -1,27 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,6 +60,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -81,28 +82,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,11 +115,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -157,28 +155,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\CASPER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CASPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mustafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -193,8 +188,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\CASPER\\Desktop\\project\\BackEnd\\EDemirogFinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Mustafa\\Desktop\\Project\\Backend\\EDemirogFinalProject\\Core\\Core.csproj"
               }
             }
           }
@@ -224,7 +219,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

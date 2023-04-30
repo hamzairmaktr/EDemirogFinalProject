@@ -8,7 +8,7 @@ namespace Business.Constants
 {
     public static class Messages
     {
-        
+
         public static string ProductAdded = "Ürün eklendi";
         public static string ProductNameInvalid = "Ürün ismi geçersiz";
         public static string MaintinesTime = "Sistem bakımda";
@@ -17,5 +17,6 @@ namespace Business.Constants
         public static string ProductUpdated = "Ürün gücellendi";
         public static string UrunNameMevcutError = "Bu ürün ismine sahip başka bir ürün var";
         public static string CategoryLimitExceded = "Kategori limiti aşıldığı için yeni ürün eklenemiyor";
+        public static string AuthorizationDenied = "Yetkiniz yok";
     }
 }
